@@ -1,0 +1,20 @@
+Package: linux-firmware-raspi
+Version: 12-0ubuntu1.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 24400
+Conflicts: bluez-firmware
+Breaks: linux-firmware-raspi2
+Replaces: linux-firmware-raspi2
+Filename: ./linux-firmware-raspi_12-0ubuntu1.1_arm64.deb
+Size: 7715066
+MD5sum: e8854b06d1186052499bac5ff2f2a22b
+SHA1: a4b256e03e9b4f5b5f46a57e3657cdc62c9b5c63
+SHA256: 29b672cb31a6383e823dbb1dd8923c3513dfb0f07e4e320550e795047f4b8092
+Section: misc
+Priority: optional
+Homepage: https://github.com/raspberrypi/firmware
+Description: Raspberry Pi 2/3/4 GPU firmware and bootloaders
+ This package contains all the proprietary files necessary to boot a
+ Raspberry Pi 2/3/4 board.
+

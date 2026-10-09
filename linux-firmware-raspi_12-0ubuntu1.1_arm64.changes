@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 30 Jan 2026 11:19:48 +0000
+Source: linux-firmware-raspi
+Binary: linux-firmware-raspi
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 12-0ubuntu1.1
+Distribution: noble
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Dave Jones <dave.jones@canonical.com>
+Description:
+ linux-firmware-raspi - Raspberry Pi 2/3/4 GPU firmware and bootloaders
+Launchpad-Bugs-Fixed: 2139343
+Changes:
+ linux-firmware-raspi (12-0ubuntu1.1) noble; urgency=medium
+ .
+   * Add missing links for Raspberry Pi 500 wifi firmwares (LP: #2139343)
+Checksums-Sha1:
+ 518270ae1cacce94a22c428639713531c752a46a 6537 linux-firmware-raspi_12-0ubuntu1.1_arm64.buildinfo
+ a4b256e03e9b4f5b5f46a57e3657cdc62c9b5c63 7715066 linux-firmware-raspi_12-0ubuntu1.1_arm64.deb
+Checksums-Sha256:
+ f3d6899023cf94ea86c6fe905df69483506b816da2ba5fd3f7041898dee525dd 6537 linux-firmware-raspi_12-0ubuntu1.1_arm64.buildinfo
+ 29b672cb31a6383e823dbb1dd8923c3513dfb0f07e4e320550e795047f4b8092 7715066 linux-firmware-raspi_12-0ubuntu1.1_arm64.deb
+Files:
+ fc9e5ba02aaf4268f1420ae549502765 6537 misc optional linux-firmware-raspi_12-0ubuntu1.1_arm64.buildinfo
+ e8854b06d1186052499bac5ff2f2a22b 7715066 misc optional linux-firmware-raspi_12-0ubuntu1.1_arm64.deb

@@ -1,0 +1,4 @@
+[submodule "linux-firmware-raspi"]
+	path = linux-firmware-raspi
+	url = https://git.launchpad.net/ubuntu/+source/linux-firmware-raspi
+	branch = ubuntu/noble-proposed
